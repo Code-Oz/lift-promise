@@ -1,12 +1,17 @@
-liftP function
 
-#### What is and why ?
+![GitHub followers](https://img.shields.io/github/followers/Code-Oz?style=social)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Code-Oz/lift-promise?style=social)
+
+## **liftP function**
+
+## What is and why ?
 
 Use lifP when you want to modify a sync function into an async function without manage parameters !
 
 Use it if you have the folowing example
 
-#### Examples of usage
+## Examples of usage
 
 Let's compare the following case:
 
@@ -30,6 +35,8 @@ And why don't directly manipulate promise?
 Yes but you have to rewrite `add` function
 
 Why not use the lifP function? This will transform the function for manipulating promise as parameters !
+
+2) Good Solution:
 
 ```ts
 // Solution liftP
@@ -59,3 +66,5 @@ Boxed values are no longer unboxed and then reboxed.
 
 ​
 From https://blog.bitsrc.io/out-with-async-await-and-in-with-promise-lifting-c42882a474fd
+
+Github => https://github.com/Code-Oz/lift-promise

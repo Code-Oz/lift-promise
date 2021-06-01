@@ -2,7 +2,8 @@
   "name": "lifp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "prod": "node dist/index.js",

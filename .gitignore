@@ -2,6 +2,7 @@
 node_modules
 media_ressources
 /dist
+/coverage
 
 # local env files
 .env.local

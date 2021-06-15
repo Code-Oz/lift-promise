@@ -45,7 +45,7 @@ const add = (x: string, y: number) => x + y
 // Lift add function for change params <T> to promise <T>
 const addP = liftP(add)
 ​
-const compute = async () => {
+const compute = () => {
     const promise1 = Promise.resolve(3)
     const promise2 = Promise.resolve(4)
 
